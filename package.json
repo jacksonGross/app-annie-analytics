@@ -1,20 +1,34 @@
 {
-  "name": "app-annie-analytics",
-  "version": "0.0.1",
-  "description": "A small script to retrieve app analytics hosted by App Annie",
-  "main": "index.js",
-  "bin": {
-    "aaa": "index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jacksonGross",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^2.9.0",
-    "moment": "^2.11.2",
-    "promise": "^7.1.1",
-    "request": "^2.69.0"
-  }
+    "name": "app-annie-analytics",
+    "version": "0.0.2",
+    "description": "A small script to retrieve app analytics hosted by App Annie",
+    "main": "index.js",
+    "bin": {
+        "aaa": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jacksonGross",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^2.9.0",
+        "moment": "^2.11.2",
+        "promise": "^7.1.1",
+        "request": "^2.69.0"
+    },
+    "keywords": ["app annie", "analytics", "ios", "android"],
+    "bugs": {
+        "url": "https://github.com/jacksonGross/app-annie-analytics/issues",
+        "email": "jgross@acresta.com"
+    },
+    "author": {
+        "name": "Jackson Gross",
+        "email": "jgross@acresta.com",
+        "url": "https://github.com/jacksonGross/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jacksonGross/app-annie-analytics.git"
+    }
 }

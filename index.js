@@ -124,7 +124,7 @@ function writeToFile(data) {
 };
 
 program
-    .version('0.0.1')
+    .version('0.0.2')
     .option('-A, --account [account]', 'account (App Store/Google Play) to inspect')
     .option('-a, --app [app]', 'app from account to inspect')
     .option('-o, --out [file]', 'output file')
